@@ -10,7 +10,7 @@ _main:
     call _GetStdHandle@4
     mov ebx, eax
 
-    ; Escreva a mensagem "Hello, World" no console
+    ; Escreva a mensagem no console
     push 0
     lea eax, [ebp-4]
     push eax
