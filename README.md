@@ -16,5 +16,5 @@ Neste código Assembly:
    - `push ebx` coloca o identificador da saída padrão na pilha.
    - `call _WriteFile@20` chama a função `_WriteFile` para escrever a mensagem no console.
 9. `push 0` e `call _ExitProcess@4` encerram o programa.
-10. `hlt` pausa a execução até que ocorra uma interrupção?! (acho que é isso)
+10. `hlt` pausa a execução até que ocorra uma interrupção
 11. `message` e `message_end` são etiquetas que definem o início e o fim da string `"ola, mundoooo"`.
